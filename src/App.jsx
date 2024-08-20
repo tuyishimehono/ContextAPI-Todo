@@ -3,7 +3,7 @@ import Item from "./components/Item";
 import Add from "/images/add.svg";
 import "./App.css";
 
-const TodosContext = createContext({
+export const TodosContext = createContext({
   todos: [],
   setTodos: () => {},
   inputValue: "",
